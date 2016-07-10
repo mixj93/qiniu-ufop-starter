@@ -1,0 +1,5 @@
+image: ubuntu
+build_script:
+  - sudo mv $RESOURCE/* .
+  - chmod +x ufop-expressjs
+run: node ./code/index.js
